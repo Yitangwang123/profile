@@ -1,0 +1,79 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
+body {
+  color: #25171A ;
+  background-color: #F9F7F3;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+  font-weight: 300;
+}
+
+h1 {
+  color: #7776BC;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+h2 {
+  color: #6969B3;
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+h3 {
+  color: #92828D;
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+a {
+  color: #FF8811;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+.number {
+  list-style: none;
+  padding: 0;
+}
+
+.imag-change {
+  display: inline-block;
+  margin: 30px;
+}
+
+.imag-circle {
+ border-radius: 50%;
+}
+
+.container {
+  background: #D1D1D1;
+  border-radius: 5px;
+  box-shadow: 0 20px 40px rgba(0,0,0,.1);
+  text-align: center;
+  padding: 30px;
+  margin: 40px auto;
+  width: 500px;
+  }
+
+@media (max-width: 960px) {
+  .container {
+  width: 500px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+  width: 300px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+  width: 200px;
+  }
+}
